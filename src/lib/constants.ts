@@ -1,7 +1,7 @@
-/** Base path - must EXACTLY match next.config repoName */
-export const BASE_PATH = "/coachcathyandHydrosafe";
+// Base path handled automatically by Next.js.
+// Do not manually prefix paths.
 
-/** Resolve an image path with basePath for correct loading on dev and GitHub Pages */
+export const BASE_PATH = "";
 export function imgPath(path: string): string {
-  return `${BASE_PATH}${path}`;
+  return path;
 }

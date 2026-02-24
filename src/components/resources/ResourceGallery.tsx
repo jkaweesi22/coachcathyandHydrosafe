@@ -1,17 +1,16 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 
 const RESOURCE_IMAGES = [
-  "/images/resource1.jpg",
-  "/images/resource2.jpg",
-  "/images/resource3.jpg",
-  "/images/resource4.jpg",
-  "/images/resource5.jpg",
-  "/images/resource6.jpg",
-  "/images/resource7.jpg",
+  "/coachcathyandHydrosafe/images/resource1.jpg",
+  "/coachcathyandHydrosafe/images/resource2.jpg",
+  "/coachcathyandHydrosafe/images/resource3.jpg",
+  "/coachcathyandHydrosafe/images/resource4.jpg",
+  "/coachcathyandHydrosafe/images/resource5.jpg",
+  "/coachcathyandHydrosafe/images/resource6.jpg",
+  "/coachcathyandHydrosafe/images/resource7.jpg",
 ];
 
 export function ResourceGallery() {
@@ -38,11 +37,11 @@ export function ResourceGallery() {
             onClick={() => setOpenImage(src)}
             className="flex aspect-[4/3] cursor-pointer items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-soft transition-all hover:shadow-card focus:outline-none focus:ring-2 focus:ring-water-500"
           >
-            <Image
+            <img
               src={src}
               alt={`Resource ${i + 1} - Click to enlarge`}
-              width={400}
-              height={300}
+              width="400"
+              height="300"
               className="h-full w-full object-contain"
             />
           </button>
@@ -71,13 +70,10 @@ export function ResourceGallery() {
             className="relative max-h-[90vh] max-w-[95vw]"
             onClick={(e) => e.stopPropagation()}
           >
-            <Image
+            <img
               src={openImage}
               alt="Enlarged resource"
-              width={1200}
-              height={900}
               className="max-h-[90vh] w-auto max-w-full object-contain"
-              unoptimized
             />
           </div>
         </div>

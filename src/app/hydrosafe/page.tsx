@@ -39,7 +39,7 @@ export default function HydroSafePage() {
         <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 md:flex-row md:items-start md:gap-10">
           <div className="relative shrink-0">
             <Image
-              src="/images/hydrosafe-logo.jpg"
+              src="/coachcathyandHydrosafe/images/hydrosafe-logo.jpg"
               alt="HydroSafe logo"
               width={280}
               height={200}

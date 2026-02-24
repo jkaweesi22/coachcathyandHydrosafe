@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { generateSEO, generateBreadcrumbJsonLd } from "@/lib/seo";
 import type { Metadata } from "next";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -38,12 +39,12 @@ export default function ProgramsPage() {
                 <CardDescription>{program.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <a
+                <Link
                   href="/contact/"
                   className="text-sm font-medium text-water-600 hover:text-water-700"
                 >
                   Enquire now →
-                </a>
+                </Link>
               </CardContent>
             </Card>
           ))}

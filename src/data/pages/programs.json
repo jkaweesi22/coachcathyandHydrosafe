@@ -1,0 +1,21 @@
+{
+  "title": "Programs",
+  "content": {
+    "headline": "Our Programs",
+    "subheadline": "From first strokes to competitive laps.",
+    "programs": [
+      {
+        "title": "Beginners",
+        "description": "Introduction to water. Build comfort and basic strokes."
+      },
+      {
+        "title": "Intermediate",
+        "description": "Refine technique. Build endurance and confidence."
+      },
+      {
+        "title": "Advanced",
+        "description": "Competitive training. Championship-level coaching."
+      }
+    ]
+  }
+}

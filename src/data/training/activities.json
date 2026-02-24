@@ -1,0 +1,26 @@
+[
+  {
+    "id": "warmup",
+    "name": "Warm-up",
+    "duration": "10 min",
+    "description": "Light swimming, stretching, mobility"
+  },
+  {
+    "id": "technique",
+    "name": "Technique Drills",
+    "duration": "20 min",
+    "description": "Focus on stroke form"
+  },
+  {
+    "id": "main",
+    "name": "Main Set",
+    "duration": "30 min",
+    "description": "Endurance or speed work"
+  },
+  {
+    "id": "cooldown",
+    "name": "Cool-down",
+    "duration": "10 min",
+    "description": "Easy swimming, stretch"
+  }
+]

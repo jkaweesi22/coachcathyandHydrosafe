@@ -1,0 +1,19 @@
+{
+  "title": "Contact",
+  "content": {
+    "headline": "Get in Touch",
+    "subheadline": "Ready to dive in? Reach out for lessons or inquiries.",
+    "contacts": [
+      {
+        "label": "Coach Cathy",
+        "phone": "+256 700 127331",
+        "href": "tel:+256700127331"
+      },
+      {
+        "label": "HydroSafe",
+        "phone": "+256 700 127331",
+        "href": "tel:+256700127331"
+      }
+    ]
+  }
+}

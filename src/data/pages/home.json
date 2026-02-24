@@ -1,0 +1,28 @@
+{
+  "title": "Home",
+  "sections": {
+    "hero": {
+      "headline": "Championship Energy. Calm Water.",
+      "subheadline": "Swim coaching and water safety with Coach Cathy. Expert instruction, proven results.",
+      "cta": "Get Started",
+      "ctaSecondary": "Learn More"
+    },
+    "features": [
+      {
+        "icon": "droplets",
+        "title": "HydroSafe",
+        "description": "Professional water safety training. Learn to swim with confidence."
+      },
+      {
+        "icon": "sparkles",
+        "title": "Coach Cathy",
+        "description": "Championship-level swim coaching. Train like a champion."
+      },
+      {
+        "icon": "dumbbell",
+        "title": "Programs",
+        "description": "Structured programs for all levels. From beginner to competitive."
+      }
+    ]
+  }
+}

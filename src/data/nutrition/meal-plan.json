@@ -1,0 +1,26 @@
+{
+  "title": "Sample Meal Plan",
+  "description": "Balanced nutrition for swimmers",
+  "meals": {
+    "breakfast": [
+      "Oatmeal with banana and honey",
+      "Eggs with whole grain toast",
+      "Smoothie (banana, spinach, milk, protein)"
+    ],
+    "lunch": [
+      "Grilled chicken with rice and vegetables",
+      "Fish with salad and sweet potato",
+      "Lentil soup with bread"
+    ],
+    "dinner": [
+      "Lean protein with vegetables",
+      "Pasta with tomato sauce and greens",
+      "Rice and beans with avocado"
+    ],
+    "snacks": [
+      "Fruit (banana, apple, orange)",
+      "Nuts or trail mix",
+      "Yogurt"
+    ]
+  }
+}

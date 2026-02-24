@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { generateSEO, generateBreadcrumbJsonLd } from "@/lib/seo";
+import { imgPath } from "@/lib/constants";
 import type { Metadata } from "next";
 import aboutData from "@/data/pages/about.json";
 

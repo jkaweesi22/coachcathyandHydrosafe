@@ -2,7 +2,12 @@ name: Deploy to GitHub Pages
 
 on:
   push:
+<<<<<<< HEAD
     branches: [ main ]
+=======
+    branches: [main]
+  workflow_dispatch:
+>>>>>>> 538f5ad (fix: add GitHub Actions deploy, fix basePath for images, simplify layout)
 
 permissions:
   contents: read
@@ -12,12 +17,19 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
+=======
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+>>>>>>> 538f5ad (fix: add GitHub Actions deploy, fix basePath for images, simplify layout)
 
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
+<<<<<<< HEAD
           node-version: 20
 
       - run: npm install
@@ -28,3 +40,19 @@ jobs:
           path: ./out
 
       - uses: actions/deploy-pages@v4
+=======
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+>>>>>>> 538f5ad (fix: add GitHub Actions deploy, fix basePath for images, simplify layout)

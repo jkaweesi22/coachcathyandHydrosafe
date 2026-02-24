@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
+import { imgPath } from "@/lib/constants";
 
 const RESOURCE_IMAGES = [
   "/images/resource1.jpg",
@@ -13,7 +14,6 @@ const RESOURCE_IMAGES = [
   "/images/resource6.jpg",
   "/images/resource7.jpg",
 ];
-
 export function ResourceGallery() {
   const [openImage, setOpenImage] = useState<string | null>(null);
 

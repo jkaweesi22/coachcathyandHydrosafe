@@ -8,7 +8,7 @@ export interface SEOConfig {
   noIndex?: boolean;
 }
 
-const SITE_URL = "https://coachcathyhydrosafe.github.io/CoachCathyHydrosafe";
+const SITE_URL = "https://jkaweesi22.github.io/coachcathyandHydrosafe";
 const DEFAULT_OG = "/og-default.png";
 
 export function generateSEO(config: SEOConfig): Metadata {
